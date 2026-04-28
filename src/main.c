@@ -34,4 +34,8 @@ int main(int argc, char **argv) {
     printf("Output: %s \n", args.output_path);
 
     FILE *fp = fopen(args.input_path, "r");
+
+    fclose(fp);
+
+    return 0;
 }
